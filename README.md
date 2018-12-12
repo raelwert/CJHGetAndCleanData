@@ -2,6 +2,7 @@
 Coursera - John Hopkins data science course project: Get And Clean Data
 
 This script combines wearable health tracker test and train sets and filters to specific columns
+use setwd() to set the working directory to the location of run_analysis.r
 as long as the test and train data sets and the script are in the same folder the script will run
 
 first the test and train data sets are pulled from a file into memory

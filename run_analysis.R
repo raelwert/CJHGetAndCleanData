@@ -48,7 +48,7 @@ A2DF <- A1DF[A2Names]
 TidyDataSet <- aggregate(.~Subject+Activity, A2DF, mean)
 
 #write that table for the other part of the answer
-#write.table(TidyDataSet, file = "AnswerFive.txt", row.names = FALSE)
+#write.table(TidyDataSet, file = "TidyDataSet.csv", row.names = FALSE)
 
 listed = ls()
 
