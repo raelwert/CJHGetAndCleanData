@@ -48,12 +48,4 @@ A2DF <- A1DF[A2Names]
 TidyDataSet <- aggregate(.~Subject+Activity, A2DF, mean)
 
 #write that table for the other part of the answer
-#write.table(TidyDataSet, file = "TidyDataSet.csv", row.names = FALSE)
-
-listed = ls()
-
-list.append(listed, "list")
-
-listed = listed[listed != "TidyDataSet"]
-
-rm(list = listed)
+write.table(TidyDataSet, file = "TidyDataSet.csv", row.names = FALSE)
